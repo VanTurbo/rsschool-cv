@@ -1,1 +1,1 @@
-# rsschool-cv
+https://VanTurbo.github.io/rsschool-cv/cv
