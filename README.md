@@ -1,1 +1,1 @@
-https://VanTurbo.github.io/rsschool-cv/cv
+[CV] (https://VanTurbo.github.io/rsschool-cv/)
