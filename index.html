@@ -6,15 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <style>
+        .line-height {
+            font-size: 24px;
+            line-height: 36px;
+        }
+    </style>
 </head>
 
 <body>
-    <div style="margin: 0 auto;width: 500px">
-        <header>
-            <h1>Ivan Skorbenko</h1>
+    <div
+        style="margin: 25px auto; padding: 15px; width: 500px; box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5); background-color: rgb(152, 168, 177);">
+        <header style="background-color: rgba(202, 190, 190, 0.37);">
+            <h1 style="font-family: fantasy;">Ivan Skorbenko</h1>
+            <nav>
+                <ul>
+                    <li><a href="#personal_data">Contact</a></li>
+                    <li><a href="#about_me">About me</a></li>
+                    <li><a href="#skills_experience">Skills/Experience</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
-            <section>
+            <section id="personal_data">
                 <h2>Contact</h2>
                 <ul>
                     <li>Phone: +79280721654</li>
@@ -22,7 +38,7 @@
                     <li>Address: Friedrich Engels st. 74 Voronezh, 394018</li>
                 </ul>
             </section>
-            <section>
+            <section id="about_me">
                 <h2>About me</h2>
                 <p>I’ve always been interested in information technology but never took it seriously. So onde day I
                     decided
@@ -30,14 +46,14 @@
                     knowledge!
                 </p>
             </section>
-            <section>
-                <h2>Skills/Experience</h2>
+            <section id="skills_experience">
+                <h2 class="line-height">Skills/Experience</h2>
                 <ul>
                     <li>HTML Basic</li>
                     <li>CSS Basic</li>
                 </ul>
             </section>
-            <section>
+            <section id="languages">
                 <h2>Languages</h2>
                 <table>
                     <tbody>
@@ -57,7 +73,7 @@
                     </tbody>
                 </table>
             </section>
-            <section>
+            <section id="education">
                 <h2>Education</h2>
                 <p>
                     <strong>Voronezh State Technical University</strong>
@@ -67,7 +83,7 @@
                 </p>
             </section>
         </main>
-        <footer>
+        <footer style="display: flex; justify-content: space-between; align-items: center;">
             <a href="https://github.com/VanTurbo">GitHub</a>
             <span>2021 г.</span>
             <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="50"
